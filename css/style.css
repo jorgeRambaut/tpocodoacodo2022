@@ -1,0 +1,94 @@
+/* -y este codigo?
+- lo cree, estaba aqui, es chiquito y esta roto, pero es bueno, si, muy bueno
+kjj basta de joda loco */
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*en about me y en project no le puedo poner el texto en negro kjj*/
+
+h1{
+    font-size: 10vh;
+    font-weight: 10vw;
+    text-align: center;
+}
+
+
+
+#navbar{
+    background-color: white;
+    text-align: center;
+}
+
+body{
+    margin: 0;
+    background-color: #fff7e9;
+    display: flex; /*para que me quede el footer abajo y no me de problemas*/
+    flex-direction: column;/*para que me quede el footer abajo y no me de problemas*/
+    min-height: 100vh; /*como minimo tiene que medir lo que mide el viewport*/
+}
+
+a {
+    display: inline-block;
+    justify-content: space-evenly;
+    text-decoration: none;
+  }
+  
+  a:link {
+    color: rgb(0, 0, 0);
+  }
+  
+  a:visited {
+    color: rgb(0, 0, 0);
+  }
+  
+  a:hover {
+    background: #d4ccbe;
+}
+
+.container{
+    display: flex;
+}
+
+.container, p{
+    color:black;
+}
+
+ul{
+    list-style: none;
+}
+
+/*la galeria esta rotisima, en un futuro deberia de linkearse con mercadolibre pero por
+ahora no me salio darle esa vista linda de galeria tipo cuadricula*/
+
+/*falta ver donde poner el video y como*/
+
+.caja{
+        width: 50vw;
+        height: 50vh;
+        border: black solid 2px;
+        flex-flow:wrap;
+}
+
+.caja, div, img{
+    width: 50vw;
+    height: 50vh;
+    flex-flow:wrap;
+}
+
+/*faltan animaciones, transiciones, etc etc, media queries etc etc puntos de corte aaAAA */
+
+/*falta darle un estilo, centrado y que no ocupe toda la pantalla al form de contact*/
+
+footer{
+    background-color: black;
+    padding: 1em 0;
+    text-align: center;
+    margin-top: auto; /*para que me quede el footer abajo y no me de problemas*/
+}
+
+footer, p{
+    color:white;
+}
