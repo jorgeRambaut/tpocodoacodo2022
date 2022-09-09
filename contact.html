@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="icon" href="img/Polar imagotipo.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Polar Canvas</title>
+</head>
+<body>
+    
+    <header id="mainheader">
+        <nav id="navbar">
+                 <a href="index.html">Home</a>
+                     <a href="artist.html">About me</a>
+                     <a href="contact.html">Contacto</a>
+                     <a href="galeria.html">Galería</a>
+                     <a href="project.html">Projecto</a>     
+        </nav>
+     </header>
+
+    <main>
+
+	   <form action="show-data.html" target="_blank">
+          <fieldset>
+                <label for="nombre">Nombre: <sup>*</sup></label>
+                <input type="text" name="nombre" id="nombre" placeholder="Ingresa aquí tu nombre"><br>
+
+                <label for="apellido">Apellido: </label>
+                <input type="text" name="apellido" id="apellido" placeholder="Ingresá aquí tu apellido"><br>
+
+                <label for="mail">Mail:</label>
+                <input type="email" name="mail" id="mail"><br>
+
+                <label for="base">Base/trabajo</label><br>
+                <input type="radio" name="option" value="1">Bastidor<br>
+                <input type="radio" name="option" value="2">Madera<br>
+                <input type="radio" name="option" value="2">Pirografía<br>
+                <input type="radio" name="option" value="3">Hoja enmarcada (tipo foto)<br>
+                <input type="radio" name="option" value="3">Cartón firme (imprimado)<br>
+                <input type="radio" name="option" value="4">Objeto a personalizar<br>
+                <input type="radio" name="option" value="4">Arcilla<br>
+                <input type="radio" name="option" value="4">Porcelana<br>
+           </fieldset>
+
+            <label for="comentarios">Detalles del pedido:</label><br>
+            <textarea name="comentarios" rows="5" cols="30" placeholder="Medidas, temática, ubicación, si es para regalo incluir fecha límite, etc"></textarea><br>
+
+            <label for="fecha">Hoy es</label><br>
+            <input type="date" name="fecha" id="fecha"><br><br>
+
+        
+            <input type="submit" value="Enviar los datos">
+            <input type="reset" value="Cancelar el envio">
+
+        </form>
+
+        <p>Si usted hace click en el boton "Enviar", la informacion sera enviada a la pagina "show_data.html".</p>
+    </main>
+
+    <footer>
+        © Copyright 2022 Camila Pineda. Todos los derechos reservados.
+    </footer>
+</body>
+</html>
