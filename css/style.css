@@ -89,6 +89,10 @@ footer{
     margin-top: auto; /*para que me quede el footer abajo y no me de problemas*/
 }
 
-footer, p{
+
+/*lo saque porque si los mensajes de validacion que queria poner con p no me aparecen
+porque estan en blanco para mas adelante, lo modificamos des js al css 
+/*footer, p{
     color:white;
 }
+  */
